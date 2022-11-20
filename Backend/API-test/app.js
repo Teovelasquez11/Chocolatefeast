@@ -4,6 +4,7 @@ var bodyParser = require("body-parser");
 var cors = require("cors");
 var port = 3001;
 //si sube//
+//si sube x2//
 
 app.use(cors({ allowedHeaders: "Content-Type, Cache-Control" }));
 app.options("*", cors()); // enable pre-flight
